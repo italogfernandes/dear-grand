@@ -40,7 +40,7 @@
 #include<Wire.h>
 #include<Timer.h>
 
-//#define DEBUG_CARDIO
+#define DEBUG_CARDIO
 #define UART_BAUD 115200 //TODO: Ajustar para a baudrate do bluetooth 
 #define AquirePeriod 5 //TODO: Ajustar para a frequencia de aquisição so sinal desejada
 const float limiar_batida = 3.3; //Quando acima de limiar_batida V considera como uma batida, para ajustar visualize a onnda descomentando o DEBUG_CARDIO
